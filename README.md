@@ -1,5 +1,6 @@
 # Incidente D — Esgotamento de conexões (negação de serviço)
 
+**Pós-graduação:** MBA em Engenharia e Ciência de Dados  
 **Disciplina:** DBaaS — Alta disponibilidade e réplicas  
 **Data:** sábado, 14/11/2026  
 **Ambiente:** PostgreSQL 16.14 instalado no Windows (caminho B)  
