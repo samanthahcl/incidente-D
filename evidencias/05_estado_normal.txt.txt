@@ -1,0 +1,20 @@
+CENÁRIO D - ESGOTAMENTO DE CONEXÕES
+Data: 14/11/2026
+Instância: PostgreSQL Primary - porta 5442
+
+ESTADO ANTES DO INCIDENTE
+
+Comando: SHOW max_connections;
+Resultado: 100
+
+Comando: SELECT count(*) AS conexoes_ativas FROM pg_stat_activity;
+Resultado: 7
+
+Comando: SHOW superuser_reserved_connections;
+Resultado: 3
+
+Conclusão:
+O servidor está operacional antes da simulação.
+O limite configurado é de 100 conexões, sendo 3 reservadas
+para superusuários.
+Foram observadas 7 conexões em pg_stat_activity.

@@ -1,0 +1,71 @@
+# VALIDAÇÃO DO AMBIENTE POSTGRESQL
+
+**Data:** 14/11/2026  
+**Sistema operacional:** Windows  
+**Banco de dados:** PostgreSQL 16.14
+
+## 1. Configuração do ambiente
+
+Foi criado um laboratório com duas instâncias independentes do PostgreSQL.
+
+- Servidor principal (Primary): porta 5442.
+- Servidor réplica (Replica): porta 5443.
+- Usuário de replicação: replicator.
+- Slot de replicação: replica1_slot.
+
+## 2. Inicialização do servidor principal
+
+O banco principal foi inicializado com sucesso utilizando o comando initdb.
+
+A instância foi iniciada na porta 5442 e validada por meio da consulta:
+
+`SELECT pg_is_in_recovery();`
+
+Resultado: `false (f)`.
+
+## 3. Configuração da replicação
+
+Foi criado o usuário replicator com permissão de replicação.
+
+A réplica foi criada utilizando pg_basebackup, com cópia concluída em 100%.
+
+A instância réplica foi iniciada na porta 5443.
+
+## 4. Validação dos servidores
+
+Principal:
+
+`SELECT pg_is_in_recovery();`
+
+Resultado: `f`.
+
+Réplica:
+
+`SELECT pg_is_in_recovery();`
+
+Resultado: `t`.
+
+## 5. Estado da replicação
+
+Foi executada a consulta pg_stat_replication no servidor principal.
+
+Resultados:
+
+- client_addr: 127.0.0.1
+- state: streaming
+- sync_state: async
+
+Isso confirma que a replicação assíncrona está ativa.
+
+## 6. Teste prático
+
+Foi criada a tabela teste no servidor principal e inserido o registro:
+
+- id: 1
+- msg: ola
+
+A consulta realizada na réplica retornou o mesmo registro, comprovando a replicação dos dados.
+
+## 7. Conclusão
+
+O ambiente PostgreSQL foi configurado e validado com sucesso, estando preparado para a realização dos testes de incidentes, análise de recuperação e medição de RTO e RPO.
