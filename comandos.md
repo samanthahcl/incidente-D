@@ -36,7 +36,6 @@ Resultados: 110 tentativas, 97 processos ainda ativos e 13 tentativas com erro. 
 
 ```sql
 CREATE ROLE app LOGIN PASSWORD '[REDACTED]' CONNECTION LIMIT 3;
-GRANT CONNECT ON DATABASE postgres TO teste_incidente;
 ```
 
 Foram iniciadas sessões `app` com `SELECT pg_sleep(300);`, mas houve erros de senha e episódios não planejados de desligamento do servidor, documentados separadamente. A saída de `pg_ctl` e os logs foram inspecionados; o processo órfão PID 22984 foi encerrado para permitir reinício do primário.
