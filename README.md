@@ -4,7 +4,8 @@
 **Data:** sábado, 14/11/2026  
 **Ambiente:** PostgreSQL 16.14 instalado no Windows (caminho B)  
 **Primário:** 127.0.0.1:5442 · **Réplica:** 127.0.0.1:5443 · **Replicação:** streaming assíncrona  
-**Responsável:** identificação da estudante a preencher antes da entrega.
+**Responsável:** Samantha Hellen da Cunha Lima  
+**Modalidade:** Individual
 
 ## 1. Resumo do incidente
 
@@ -142,4 +143,4 @@ Referências:
 - `evidencias/08_timeouts_preventivos.md`: teste de timeout.
 - `evidencias/09_clientes_replicados.md`, `10_conferencia_dados_rpo.md`: dados inseridos posteriormente e análise limitada do RPO.
 
-**Antes da entrega:** preencher nome(s) da equipe. Os quatro prints da configuração/replicação e três TXT originais estão em `evidencias/`; as provas da reprodução formal, correção e timeout constam como transcrições reais em Markdown, não como capturas de tela. Conferir `evidencias/README.md`. O hash enviado ao professor deve corresponder ao último commit, sem novos commits após a entrega.
+**Identificação preenchida:** Samantha Hellen da Cunha Lima (trabalho individual). Os quatro prints da configuração/replicação e três TXT originais estão em `evidencias/`; as provas da reprodução formal, correção e timeout constam como transcrições reais em Markdown, não como capturas de tela. Conferir `evidencias/README.md`. O hash enviado ao professor deve corresponder ao último commit, sem novos commits após a entrega.
