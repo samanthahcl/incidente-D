@@ -1,0 +1,29 @@
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  desculpe, muitos clientes conectados
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  desculpe, muitos clientes conectados
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  desculpe, muitos clientes conectados
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+psql: erro: a conexão com o servidor em "127.0.0.1", porta 5442 falhou: FATAL:  os encaixes de conexão restantes estão reservados para funções de banco de dados (roles) com o atributo SUPERUSER
+
+
+Conexoes ativas: 97
+Tentativas com erro: 13
